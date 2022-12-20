@@ -1,0 +1,45 @@
+/*--affects general page--*/
+body { /* affects entire page */
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container { /*container almost all*/
+    display: flex;
+    flex-direction: column;
+}
+
+/*--phase one, or just top portion--*/
+
+.navbar { /*--general navbar--*/
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 0px 0px 0px 10px;
+    align-items: center;
+}
+
+.logo img { /*--top right logo in navbar--*/
+    width: 250px;
+    height: 250px;
+    margin-right: auto;
+    margin: 0;
+}
+
+.header-link { /*--affects the links on navbar--*/
+    display: flex; /*--activate flex powers!*/
+    margin-left: auto; /*makes links go to left like the sluts they are*/
+    padding: 0px 100px 0px 0px; /*gives spaces to header links*/
+    align-items: center; /*it moves link to center but i cant see*/
+}
+
+.header-link a{
+    text-decoration: none; /*--not sure--*/
+    color: #E5E7EB; /*--changes navbar links colors--*/
+    font-size: 18px;
+    padding: 10px; /*puts space between links*/
+    font-family: 'Roboto', arial;
+}
